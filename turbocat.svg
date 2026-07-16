@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="TurboCat">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="62%">
+      <stop offset="0%" stop-color="#FF9A3D"/>
+      <stop offset="60%" stop-color="#F8631E"/>
+      <stop offset="100%" stop-color="#D62828"/>
+    </radialGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFB347"/>
+      <stop offset="100%" stop-color="#F47B20"/>
+    </linearGradient>
+    <linearGradient id="lens" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9BE8FF"/>
+      <stop offset="100%" stop-color="#19A7CE"/>
+    </linearGradient>
+    <radialGradient id="ring" cx="50%" cy="50%" r="50%">
+      <stop offset="92%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.85"/>
+    </radialGradient>
+  </defs>
+
+  <!-- badge -->
+  <circle cx="256" cy="256" r="250" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="250" fill="url(#ring)"/>
+  <circle cx="256" cy="256" r="238" fill="none" stroke="#1a1a1a" stroke-width="6" opacity="0.25"/>
+
+  <!-- speed lines (cat zooming right) -->
+  <g stroke="#FFD23F" stroke-linecap="round" opacity="0.9">
+    <line x1="36"  y1="196" x2="150" y2="196" stroke-width="14"/>
+    <line x1="24"  y1="250" x2="168" y2="250" stroke-width="18"/>
+    <line x1="40"  y1="306" x2="138" y2="306" stroke-width="12"/>
+  </g>
+
+  <!-- ears -->
+  <path d="M168 196 L150 92 L236 162 Z" fill="url(#fur)" stroke="#1a1a1a" stroke-width="5"/>
+  <path d="M344 196 L362 92 L276 162 Z" fill="url(#fur)" stroke="#1a1a1a" stroke-width="5"/>
+  <path d="M186 176 L176 120 L214 158 Z" fill="#FF9DB0"/>
+  <path d="M326 176 L336 120 L298 158 Z" fill="#FF9DB0"/>
+
+  <!-- face -->
+  <ellipse cx="256" cy="276" rx="128" ry="116" fill="url(#fur)" stroke="#1a1a1a" stroke-width="6"/>
+
+  <!-- muzzle -->
+  <ellipse cx="256" cy="320" rx="74" ry="50" fill="#FFF1DD"/>
+
+  <!-- racing goggles -->
+  <rect x="150" y="238" width="212" height="58" rx="29" fill="#23252b" stroke="#1a1a1a" stroke-width="4"/>
+  <circle cx="212" cy="267" r="36" fill="url(#lens)" stroke="#0d3b48" stroke-width="5"/>
+  <circle cx="300" cy="267" r="36" fill="url(#lens)" stroke="#0d3b48" stroke-width="5"/>
+  <circle cx="223" cy="257" r="9" fill="#ffffff" opacity="0.9"/>
+  <circle cx="311" cy="257" r="9" fill="#ffffff" opacity="0.9"/>
+  <!-- strap -->
+  <path d="M362 255 q34 11 30 50" fill="none" stroke="#23252b" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- nose + mouth -->
+  <path d="M256 306 l-16 16 h32 z" fill="#FF6B8A" stroke="#1a1a1a" stroke-width="3"/>
+  <path d="M256 322 v14 M256 336 q-22 18 -42 4 M256 336 q22 18 42 4"
+        fill="none" stroke="#1a1a1a" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- whiskers -->
+  <g stroke="#fff" stroke-width="4" stroke-linecap="round" opacity="0.95">
+    <path d="M196 318 q-46 -6 -78 6" fill="none"/>
+    <path d="M196 332 q-46 8 -76 24" fill="none"/>
+    <path d="M316 318 q46 -6 78 6" fill="none"/>
+    <path d="M316 332 q46 8 76 24" fill="none"/>
+  </g>
+
+  <!-- ticker -->
+  <text x="256" y="466" text-anchor="middle"
+        font-family="Arial Black, Arial, sans-serif" font-size="70" font-weight="900"
+        fill="#fff" stroke="#1a1a1a" stroke-width="6" paint-order="stroke">TCAT</text>
+</svg>

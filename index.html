@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turbocat (TCAT) | Solana Memecoin</title>
+  <meta name="description" content="Turbocat (TCAT) — a community-driven Solana memecoin. Fair launch, no mint, no freeze. Trades on Raydium." />
+  <style>
+    :root {
+      --bg-a: #fff1d6; --bg-b: #ffd2a8; --ink: #1f1f1f;
+      --accent: #ff7a18; --card: rgba(255,255,255,0.86); --line: #f0b373;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: "Trebuchet MS", Verdana, sans-serif; color: var(--ink);
+      background: radial-gradient(circle at 15% 20%, #fff8ea 0%, transparent 35%),
+                  radial-gradient(circle at 85% 80%, #ffc98c 0%, transparent 30%),
+                  linear-gradient(135deg, var(--bg-a), var(--bg-b));
+      min-height: 100vh; display: grid; place-items: center; padding: 24px;
+    }
+    .wrap { width: min(960px, 100%); background: var(--card); border: 2px solid var(--line);
+      border-radius: 28px; padding: 28px; box-shadow: 0 18px 40px rgba(0,0,0,0.12); }
+    .top { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
+    .logo { width: 120px; height: 120px; border-radius: 24px; border: 2px solid var(--line);
+      object-fit: cover; background: #fff; }
+    h1 { margin: 0; font-size: clamp(2rem, 4vw, 3.2rem); letter-spacing: 1px; }
+    .pill { display: inline-block; margin-top: 8px; background: #1f1f1f; color: #fff;
+      border-radius: 999px; padding: 6px 12px; font-weight: 700; font-size: 0.9rem; }
+    .grid { margin-top: 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; }
+    .card { border: 2px solid var(--line); border-radius: 18px; padding: 14px; background: #fffdf9; }
+    .k { font-size: 0.8rem; opacity: 0.75; margin-bottom: 6px; }
+    .v { font-size: 0.98rem; font-weight: 700; word-break: break-all; }
+    .cta { margin-top: 22px; display: flex; gap: 12px; flex-wrap: wrap; }
+    .btn { text-decoration: none; color: #fff; background: var(--accent); border: 2px solid #d85f08;
+      border-radius: 12px; padding: 11px 16px; font-weight: 700; }
+    .btn.secondary { background: #1f1f1f; border-color: #000; }
+    .note { margin-top: 14px; font-size: 0.92rem; opacity: 0.8; }
+    code { background: #fff3e0; padding: 2px 6px; border-radius: 6px; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="top">
+      <img class="logo" src="./turbocat.svg" alt="Turbocat logo" />
+      <div>
+        <h1>TURBOCAT</h1>
+        <div class="pill">Symbol: TCAT &nbsp;·&nbsp; Solana</div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card"><div class="k">Total Supply</div><div class="v">1,000,000,000 TCAT</div></article>
+      <article class="card"><div class="k">Mint / Freeze Authority</div><div class="v">Disabled ✓</div></article>
+      <article class="card"><div class="k">Liquidity Lock</div><div class="v">70% locked (14d)</div></article>
+      <article class="card"><div class="k">DEX</div><div class="v">Raydium (SOL-TCAT)</div></article>
+      <article class="card" style="grid-column: 1 / -1;">
+        <div class="k">Contract (Mint)</div>
+        <div class="v"><code>2bE5umznKAhenGHtknDWJEsnxPtcAsXFCQPcB6hrP6NE</code></div>
+      </article>
+    </section>
+
+    <section class="cta">
+      <a class="btn" href="https://raydium.io/swap/?inputMint=sol&outputMint=2bE5umznKAhenGHtknDWJEsnxPtcAsXFCQPcB6hrP6NE" target="_blank" rel="noreferrer">Trade on Raydium</a>
+      <a class="btn secondary" href="https://x.com/turbocat_sol" target="_blank" rel="noreferrer">X (Twitter)</a>
+      <a class="btn secondary" href="https://solscan.io/token/2bE5umznKAhenGHtknDWJEsnxPtcAsXFCQPcB6hrP6NE" target="_blank" rel="noreferrer">Solscan</a>
+    </section>
+
+    <p class="note">Turbocat is a community memecoin. Crypto is risky — only trade what you can afford to lose.</p>
+  </main>
+</body>
+</html>
