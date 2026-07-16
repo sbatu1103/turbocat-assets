@@ -3,7 +3,7 @@
   "symbol": "TCAT",
   "description": "Turbocat (TCAT) is a community-driven Solana memecoin built for fast, momentum-driven growth. Fair launch with no mint authority and no freeze authority — supply is fixed at 1 billion TCAT. 70% of initial liquidity is locked, and TCAT trades on Raydium (SOL-TCAT).",
   "image": "https://cdn.jsdelivr.net/gh/sbatu1103/turbocat-assets@main/turbocat.svg",
-  "external_url": "https://sbatu1103.github.io/turbocat-assets/",
+  "external_url": "https://turbocat-assets.batuhan-sezen1.workers.dev",
   "attributes": [
     { "trait_type": "Chain", "value": "Solana" },
     { "trait_type": "Type", "value": "Meme" }
