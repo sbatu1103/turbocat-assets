@@ -42,6 +42,6 @@ Logo için yine jsDelivr (/ Yöntem A'daki repo) kullan — Pages URL'i Cloudfla
    - `Logo (stabil):` → jsDelivr SVG URL'i
    - `Metadata (stabil):` → jsDelivr metadata URL'i
    - `Website:` → GitHub Pages URL'i
-   - `Twitter / X:` → `@turbocat_sol` (zaten biliniyor)
+   - `Twitter / X:` → `@sol_turbocat` (resmi hesap)
 3. On-chain metadata URI'sini stabil URL'ye güncelle → bak `..\/ONCHAIN_UPDATE.md` (adım B)
 4. CoinGecko → CoinMarketCap → Jupiter başvurularını gönder.
